@@ -1,5 +1,5 @@
 <script>
-  import Name from './lib/atoms/name.svelte'
+  import Name from './lib/atoms/name/name.svelte'
 </script>
 
 <main>

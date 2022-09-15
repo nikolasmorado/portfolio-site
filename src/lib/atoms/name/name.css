@@ -14,15 +14,11 @@
     font-size: 5em;
     line-height: normal;
     text-align: center;
-    height: min-content;
-        
-    margin-right: auto;
 
     white-space: nowrap;
-
-    height:auto;
     overflow-x: hidden;
-
+    
+    margin-right: auto;
     border-right: 0.15vw solid;
 
     animation:
@@ -30,12 +26,3 @@
         cursor-illusion 0.53s step-end infinite;
         
 }
-
-/* nikolas morado */
-/* 14 chars */
-
-/*
-
-530 ms blink 
-
-*/
