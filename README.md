@@ -1,4 +1,7 @@
-# Svelte + Vite
+# Ignore the default readme
+
+
+## Svelte + Vite
 
 This template should help get you started developing with Svelte in Vite.
 
