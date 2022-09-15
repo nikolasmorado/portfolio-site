@@ -1,0 +1,41 @@
+@keyframes width-grow {
+    0%      {width: 0;}
+    100%    {width: 100%;}
+}
+
+@keyframes cursor-illusion {
+    0%      {border-color: transparent;}
+    50%     {border-color: black;}
+    100%    {border-color: transparent;}
+}
+
+#name {
+    font-family: Source Code Pro;
+    font-size: 5em;
+    line-height: normal;
+    text-align: center;
+    height: min-content;
+        
+    margin-right: auto;
+
+    white-space: nowrap;
+
+    height:auto;
+    overflow-x: hidden;
+
+    border-right: 0.15vw solid;
+
+    animation:
+        width-grow 1.4s steps(14, end),
+        cursor-illusion 0.53s step-end infinite;
+        
+}
+
+/* nikolas morado */
+/* 14 chars */
+
+/*
+
+530 ms blink 
+
+*/
