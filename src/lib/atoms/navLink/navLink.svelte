@@ -1,22 +1,19 @@
 <script>
     export let text;
     export let isFocused = false;
+    let cClass;
+
+    if(isFocused) cClass = "navLinkFocused"
+    else cClass = "navLink"
+
 </script>
 
 <style>
     @import "navLink.css";
 </style>
 
-{#if isFocused}
-    <div class = "navLinkFocused">
-        <span>
-            {text}
-        </span>
-    </div>
-{:else}
-    <div class = "navLink">
-        <span>
-            {text}
-        </span>
-    </div>
-{/if}
+<div class = {cClass}>
+    <span>
+        {text}
+    </span>
+</div>

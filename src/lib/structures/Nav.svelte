@@ -2,4 +2,11 @@
     import Navbar from "../molecules/navbar/navbar.svelte";
 </script>
 
-<Navbar />
+<Navbar sections = 
+    {[
+        '/~',
+        '/contact',
+        '/experience',
+        '/education'
+    ]}
+/>
