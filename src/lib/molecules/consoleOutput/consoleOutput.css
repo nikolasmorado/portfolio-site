@@ -1,0 +1,13 @@
+.cmd-res {
+    margin-top:1rem;
+}
+
+.new-cmd {
+    margin-top: 2rem;
+}
+
+.entry-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

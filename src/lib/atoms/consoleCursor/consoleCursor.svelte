@@ -3,4 +3,5 @@
 </style>
 
 <div id = "console-cursor">
+    
 </div>
