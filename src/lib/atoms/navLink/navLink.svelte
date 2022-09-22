@@ -12,8 +12,6 @@
     @import "navLink.css";
 </style>
 
-<div class = {cClass}>
-    <span>
-        {text}
-    </span>
-</div>
+<span class = {cClass}>
+    {text}
+</span>

@@ -1,18 +1,38 @@
 <script>
     import NavLink from "../../atoms/navLink/navLink.svelte";
+    import {onMount} from 'svelte'
 
-    export let focused = 1;
+    export let focused = 0;
     export let sections = [];
+
+    let y, yMax, aaAA = 0;
+
+    onMount(() => {
+        setTimeout(() => {aaAA = document.documentElement.scrollHeight - document.documentElement.clientHeight}, 0)
+    })
+
+    const findFocus = (val, max) => {
+        console.log({val, max})
+        let tper = val / max;
+        if
+            (tper >= 0 && tper <= 0.25) return 0
+        else if
+            (tper > 0.25 && tper <= 0.5) return 1
+        else if
+            (tper > 0.5 && tper <= 0.75) return 2
+        else if
+            (tper > 0.75 && tper <= 1) return 3
+
+    }
+
+    $ : focused = findFocus(y, aaAA)
 </script>
 
 <style>
     @import "navbar.css";
 </style>
 
-<!-- <NavLink text = "/~" isFocused = {true} />
-<NavLink text = "/contact"/>
-<NavLink text = "/experience"/>
-<NavLink text = "/education"/> -->
+<svelte:window bind:scrollY={y}/>
 
 {#each sections as sec, i}
     {#if i == focused}

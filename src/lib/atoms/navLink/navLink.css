@@ -1,3 +1,9 @@
 .navLinkFocused {
-    font-size: 120%;
+    font-family: Source Code Pro;
+    font-weight: bold;
+}
+
+.navLink {
+    font-family: Source Code Pro;
+    font-weight: light;
 }
