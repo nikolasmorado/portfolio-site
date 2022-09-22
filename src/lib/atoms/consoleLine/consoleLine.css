@@ -1,0 +1,21 @@
+.consoleLine {
+    font-family: monospace;
+    font-size: 140%;
+
+}
+
+.isDir {
+    font-size: 120%;
+}
+
+#white {
+    color : #ffffff;
+}
+
+#green {
+    color: #86CD74
+}
+
+#blue {
+    color: #7cd5f1;
+}
