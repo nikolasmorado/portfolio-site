@@ -1,0 +1,17 @@
+.consoleDot {
+    border-radius: 1000px;
+    width: 1vw;
+    height: 1vw;
+}
+
+.red-dot {
+    background-color: #FF5552;
+}
+
+.yellow-dot {
+    background-color: #FFBE42;
+}
+
+.green-dot {
+    background-color: #86CD74;
+}

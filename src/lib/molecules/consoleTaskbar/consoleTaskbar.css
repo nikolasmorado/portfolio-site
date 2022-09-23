@@ -1,0 +1,20 @@
+#console-taskbar {
+    background-color: #414141;
+    width: 100%;
+    height: 5vh;
+
+    border-start-start-radius: 15px;
+    border-start-end-radius: 15px;
+}
+
+.dot-wrapper {
+    height: 100%;
+    width: 10%;
+    
+    margin-left: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
