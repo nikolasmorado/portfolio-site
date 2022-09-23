@@ -15,9 +15,9 @@
         console.log({val, max})
         let tper = val / max;
         if
-            (tper >= 0 && tper <= 0.25)  return 0
+            (tper >= 0 && tper <= 0.15)  return 0
         else if
-            (tper > 0.25 && tper <= 0.5) return 1
+            (tper > 0.15 && tper <= 0.5) return 1
         else if
             (tper > 0.5 && tper <= 0.75) return 2
         else if

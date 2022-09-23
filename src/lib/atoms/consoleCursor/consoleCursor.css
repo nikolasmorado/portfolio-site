@@ -1,4 +1,4 @@
-@keyframes cursor-illusion {
+@keyframes console-cursor-illusion {
     0%      {border-color: transparent;}
     50%     {border-color: #ffffff;}
     100%    {border-color: transparent;}
@@ -8,5 +8,5 @@
     width:0.5rem;
     height: 1rem;
     border-right: 0.15rem solid;
-    animation: cursor-illusion 0.53s step-end infinite;
+    animation: console-cursor-illusion 0.53s step-end infinite;
 }
