@@ -6,6 +6,4 @@
     @import './consoleDot.css';
 </style>
 
-<div class = "consoleDot {color + "-dot"}">
-
-</div>
+<div class = "consoleDot {color + "-dot"}" />

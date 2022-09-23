@@ -3,9 +3,8 @@
     export let isFocused = false;
     let cClass;
 
-    if(isFocused) cClass = "navLinkFocused"
-    else cClass = "navLink"
-
+    if(isFocused) cClass = "navLinkFocused";
+    else cClass = "navLink";
 </script>
 
 <style>

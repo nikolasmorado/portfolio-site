@@ -2,6 +2,4 @@
     @import './consoleCursor.css';
 </style>
 
-<div id = "console-cursor">
-    
-</div>
+<div id = "console-cursor" />

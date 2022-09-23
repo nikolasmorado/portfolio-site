@@ -23,6 +23,5 @@
 
     animation:
         width-grow 1.4s steps(14, end),
-        cursor-illusion 0.53s step-end infinite;
-        
+        cursor-illusion 0.53s step-end infinite;      
 }

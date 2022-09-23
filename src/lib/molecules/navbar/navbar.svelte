@@ -5,27 +5,26 @@
     export let focused = 0;
     export let sections = [];
 
-    let y, yMax, aaAA = 0;
+    let y, yMax = 0;
 
     onMount(() => {
-        setTimeout(() => {aaAA = document.documentElement.scrollHeight - document.documentElement.clientHeight}, 0)
+        setTimeout(() => {yMax = document.documentElement.scrollHeight - document.documentElement.clientHeight}, 0)
     })
 
     const findFocus = (val, max) => {
         console.log({val, max})
         let tper = val / max;
         if
-            (tper >= 0 && tper <= 0.25) return 0
+            (tper >= 0 && tper <= 0.25)  return 0
         else if
             (tper > 0.25 && tper <= 0.5) return 1
         else if
             (tper > 0.5 && tper <= 0.75) return 2
         else if
-            (tper > 0.75 && tper <= 1) return 3
-
+            (tper > 0.75 && tper <= 1)   return 3
     }
 
-    $ : focused = findFocus(y, aaAA)
+    $ : focused = findFocus(y, yMax)
 </script>
 
 <style>
